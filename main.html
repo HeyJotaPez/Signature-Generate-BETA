@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sube tu foto</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <main>
+  <div class="box">
+    <header>
+      <h3>Sube tu imagen </h3>
+    </header>
+    
+    <div class="content">
+
+<!-- Custom File Uploader  -->
+<form id="form1" runat="server">
+  <div class="left">
+<img id="img-uploaded" src="http://placehold.it/350x350" alt="Tu foto" />
+  </div>
+  <div class="right">
+    
+    <input type="text" class="img-path" placeholder="Nombre">
+<span class="file-wrapper">
+  <input type="file" name="photo" id="imgInp" class="uploader" />
+  <span class="btn btn-large btn-alpha">Cargar Imagen</span>
+</span>
+  </div>
+</form>
+  </div>
+  </div>
+</main>
+</body>
+</html>
